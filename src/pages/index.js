@@ -1,11 +1,9 @@
 import Head from "next/head"
-
-import Layout from "@components/Layout/Layout"
-import Section from "@components/Section/Section"
-import Container from "@components/Container/Container"
-import Map from "@components/Map/Map"
-
-import styles from "@styles/Home.module.scss"
+import Layout from "@/components/Layout/Layout"
+import Section from "@/components/Section/Section"
+import Container from "@/components/Container/Container"
+import Map from "@/components/Map/Map"
+import styles from "@/styles/Home.module.scss"
 
 const DEFAULT_CENTER = [38.907132, -77.036546]
 
@@ -21,9 +19,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Section>
+      <Section
+      >
         <Container>
-          <h1 className={styles.title}>Next.js Leaflet Starter</h1>
+          <h1 className="text-4xl font-bold text-center mb-8">
+            Next.js Leaflet Starter
+          </h1>
 
           <Map
             className={styles.homeMap}

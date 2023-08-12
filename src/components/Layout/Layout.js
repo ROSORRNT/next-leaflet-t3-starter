@@ -1,13 +1,24 @@
-import Head from 'next/head';
+import { cn } from "@/lib/utils"
+import { Inter } from "next/font/google"
 
-import Header from '@components/Header/Header';
-import Footer from '@components/Footer/Footer';
+import Head from "next/head"
 
-import styles from './Layout.module.scss';
+import Header from "@/components/Header/Header"
+import Footer from "@/components/Footer/Footer"
+
+import styles from "./Layout.module.scss"
+
+const inter = Inter({ subsets: ["latin"] })
 
 const Layout = ({ children, className, ...rest }) => {
   return (
-    <div className={styles.layout}>
+    <div
+      className={cn(
+        "bg-white text-slate-900 antialiased light",
+        inter.className,
+        styles.layout
+      )}
+    >
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -15,7 +26,7 @@ const Layout = ({ children, className, ...rest }) => {
       <main className={styles.main}>{children}</main>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
