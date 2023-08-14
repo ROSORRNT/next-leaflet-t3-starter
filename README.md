@@ -24,19 +24,18 @@ This project is an extension of the [original Next.js Leaflet Starter](https://g
 
 ### Quick Start
 
-\```bash
 yarn create next-app -e https://github.com/ROSORRNT/next-leaflet-t3-starter.git
+
 # or
+
 npm run create-next-app -e https://github.com/ROSORRNT/next-leaflet-t3-starter.git
-\```
+
 
 ### Running the Project
 
 1. First, start the development server:
 
-\```bash
 yarn dev
-\```
 
 2. Open `http://localhost:3000` in your browser to see the result.
 
