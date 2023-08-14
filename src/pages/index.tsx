@@ -1,8 +1,12 @@
 import Head from "next/head"
+
 import Layout from "@/components/Layout/Layout"
 import Section from "@/components/Section/Section"
 import Container from "@/components/Container/Container"
 import Map from "@/components/Map/Map"
+
+import { Button } from "@/components/ui/button"
+
 import styles from "@/styles/Home.module.scss"
 
 const DEFAULT_CENTER: [number, number] = [44.552641, 3.290079]
@@ -49,6 +53,10 @@ export default function Home() {
               </>
             )}
           </Map>
+          <div className="flex flex-col gap-2">
+            <Button className="mt-8">Primary</Button>
+            <Button variant="secondary">Secondary</Button>
+          </div>
         </Container>
       </Section>
     </Layout>
