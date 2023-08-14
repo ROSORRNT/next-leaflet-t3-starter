@@ -1,36 +1,27 @@
-# 🍃 Next.js Leaflet Starter
+# 🍃 Next.js Leaflet Starter avec TypeScript & Tailwind
 
-Jumpstart your new Next.js mapping project with Leaflet!
+Ce projet est une extension du Next.js Leaflet Starter original par Colby Fayock. 
+La version originale n'utilise ni TypeScript ni Tailwind, mais cette version a été étendue pour inclure ces fonctionnalités.
 
-## ⚡ Quick Deploy
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/colbyfayock/next-leaflet-starter) [![Deploy with Vercel Now](https://zeit.co/button)](https://vercel.com/import/project?template=https://github.com/colbyfayock/next-leaflet-starter)
+# Pourquoi cette version?
 
+TypeScript: Ajoute la vérification de type pour un développement plus robuste et une meilleure autocomplétion dans les éditeurs.
+Tailwind CSS: Permet une personnalisation rapide et efficace des styles avec une approche d'utilitaires.
 
-## 🧰 What This Includes
-* [Yarn](https://yarnpkg.com/en/)
-* [Next.js](https://nextjs.org/)
-* [Leaflet](https://leafletjs.com/)
-* [React Leaflet](https://react-leaflet.js.org)
+# Comment commencer?
+Si vous souhaitez utiliser ce starter avec TypeScript & Tailwind, suivez ces étapes:
 
-## 🚀 Getting Started
+# Clonez ce repo:
 
-### Requirements
-* [Yarn](https://yarnpkg.com/en/)
+git clone [Lien_vers_votre_repo]
+cd [Nom_du_dossier_de_votre_repo]
 
-### Quick Start
-```
-yarn create next-app -e https://github.com/colbyfayock/next-leaflet-starter
-# or
-npm run create-next-app -e https://github.com/colbyfayock/next-leaflet-starter
-```
+# Installez les dépendances:
 
-### Running the Project
-First, run the development server:
+npm install
 
-```bash
-yarn dev
-```
+# Lancez le développement local:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+npm run dev
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Visitez http://localhost:3000 pour voir le résultat.
