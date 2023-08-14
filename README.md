@@ -1,36 +1,42 @@
-# 🍃 Next.js Leaflet Starter
+# 🍃 Next.js Leaflet Starter with TypeScript & Tailwind
 
-Jumpstart your new Next.js mapping project with Leaflet!
+This project is an extension of the [original Next.js Leaflet Starter](https://github.com/colbyfayock/next-leaflet-starter) by Colby Fayock. I've added support for TypeScript and Tailwind for an enhanced development experience.
 
 ## ⚡ Quick Deploy
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/colbyfayock/next-leaflet-starter) [![Deploy with Vercel Now](https://zeit.co/button)](https://vercel.com/import/project?template=https://github.com/colbyfayock/next-leaflet-starter)
 
+[Deploy to Netlify](#)  
+[Deploy with Vercel](#)
 
 ## 🧰 What This Includes
-* [Yarn](https://yarnpkg.com/en/)
-* [Next.js](https://nextjs.org/)
-* [Leaflet](https://leafletjs.com/)
-* [React Leaflet](https://react-leaflet.js.org)
+
+- Yarn
+- Next.js
+- Leaflet
+- React Leaflet
+- **TypeScript**: For robust type-checking and improved editor autocompletion.
+- **Tailwind CSS**: For rapid and efficient style customization.
 
 ## 🚀 Getting Started
 
 ### Requirements
-* [Yarn](https://yarnpkg.com/en/)
+
+- Yarn
 
 ### Quick Start
-```
-yarn create next-app -e https://github.com/colbyfayock/next-leaflet-starter
+
+yarn create next-app -e https://github.com/ROSORRNT/next-leaflet-t3-starter.git
+
 # or
-npm run create-next-app -e https://github.com/colbyfayock/next-leaflet-starter
-```
+
+npm run create-next-app -e https://github.com/ROSORRNT/next-leaflet-t3-starter.git
+
 
 ### Running the Project
-First, run the development server:
 
-```bash
+1. First, start the development server:
+
 yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Open `http://localhost:3000` in your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
