@@ -1,27 +1,43 @@
-# 🍃 Next.js Leaflet Starter avec TypeScript & Tailwind
+# 🍃 Next.js Leaflet Starter with TypeScript & Tailwind
 
-Ce projet est une extension du Next.js Leaflet Starter original par Colby Fayock. 
-La version originale n'utilise ni TypeScript ni Tailwind, mais cette version a été étendue pour inclure ces fonctionnalités.
+This project is an extension of the [original Next.js Leaflet Starter](https://github.com/colbyfayock/next-leaflet-starter) by Colby Fayock. I've added support for TypeScript and Tailwind for an enhanced development experience.
 
-# Pourquoi cette version?
+## ⚡ Quick Deploy
 
-TypeScript: Ajoute la vérification de type pour un développement plus robuste et une meilleure autocomplétion dans les éditeurs.
-Tailwind CSS: Permet une personnalisation rapide et efficace des styles avec une approche d'utilitaires.
+[Deploy to Netlify](#)  
+[Deploy with Vercel](#)
 
-# Comment commencer?
-Si vous souhaitez utiliser ce starter avec TypeScript & Tailwind, suivez ces étapes:
+## 🧰 What This Includes
 
-# Clonez ce repo:
+- Yarn
+- Next.js
+- Leaflet
+- React Leaflet
+- **TypeScript**: For robust type-checking and improved editor autocompletion.
+- **Tailwind CSS**: For rapid and efficient style customization.
 
-git clone [Lien_vers_votre_repo]
-cd [Nom_du_dossier_de_votre_repo]
+## 🚀 Getting Started
 
-# Installez les dépendances:
+### Requirements
 
-npm install
+- Yarn
 
-# Lancez le développement local:
+### Quick Start
 
-npm run dev
+\```bash
+yarn create next-app -e https://github.com/ROSORRNT/next-leaflet-t3-starter.git
+# or
+npm run create-next-app -e https://github.com/ROSORRNT/next-leaflet-t3-starter.git
+\```
 
-Visitez http://localhost:3000 pour voir le résultat.
+### Running the Project
+
+1. First, start the development server:
+
+\```bash
+yarn dev
+\```
+
+2. Open `http://localhost:3000` in your browser to see the result.
+
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
