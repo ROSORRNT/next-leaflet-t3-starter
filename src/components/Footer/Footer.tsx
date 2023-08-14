@@ -13,7 +13,7 @@ const Footer: FC<FooterProps> = ({ ...rest }) => {
     <footer className={styles.footer} {...rest}>
       <Container className={`${styles.footerContainer} ${styles.footerLegal}`}>
         <p>
-          &copy; <a href="#">Next.js Leaflet Starter</a>,{" "}
+          &copy; <a href="#">Leaflet T3 Starter</a>,{" "}
           {new Date().getFullYear()}
         </p>
       </Container>

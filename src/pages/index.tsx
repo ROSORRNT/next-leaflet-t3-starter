@@ -21,7 +21,7 @@ export default function Home() {
 
       <Section>
         <Container>
-          <h1 className="bg-red-500 text-4xl font-bold text-center mb-8">
+          <h1 className="text-4xl font-bold text-center mb-8">
             Leaflet T3 Starter
           </h1>
 
