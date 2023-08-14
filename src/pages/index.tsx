@@ -5,13 +5,13 @@ import Container from "@/components/Container/Container"
 import Map from "@/components/Map/Map"
 import styles from "@/styles/Home.module.scss"
 
-const DEFAULT_CENTER = [38.907132, -77.036546]
+const DEFAULT_CENTER: [number, number] = [44.552641, 3.290079]
 
 export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Next.js Leaflet Starter</title>
+        <title>Leaflet T3 Starter</title>
         <meta
           name="description"
           content="Create mapping apps with Next.js Leaflet Starter"
@@ -19,25 +19,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Section
-      >
+      <Section>
         <Container>
-          <h1 className="text-4xl font-bold text-center mb-8">
-            Next.js Leaflet Starter
+          <h1 className="bg-red-500 text-4xl font-bold text-center mb-8">
+            Leaflet T3 Starter
           </h1>
 
           <Map
             className={styles.homeMap}
-            width="800"
-            height="400"
+            width={800}
+            height={400}
             center={DEFAULT_CENTER}
-            zoom={12}
+            zoom={16}
           >
             {({ TileLayer, Marker, Popup }) => (
               <>
                 <TileLayer
-                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                  attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                  {...({
+                    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                    attribution:
+                      '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+                  } as any)}
                 />
                 <Marker position={DEFAULT_CENTER}>
                   <Popup>

@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils"
 import { Inter } from "next/font/google"
+import { FC, ReactNode } from "react"
 
 import Head from "next/head"
 
@@ -10,7 +11,14 @@ import styles from "./Layout.module.scss"
 
 const inter = Inter({ subsets: ["latin"] })
 
-const Layout = ({ children, className, ...rest }) => {
+interface LayoutProps {
+  children: ReactNode
+  className?: string
+  [key: string]: any
+}
+
+
+const Layout: FC<LayoutProps> = ({ children, className, ...rest }) => {
   return (
     <div
       className={cn(
